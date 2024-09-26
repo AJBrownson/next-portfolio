@@ -2,8 +2,7 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link";
-import { FaTimes } from "react-icons/fa";
-import { FaBars } from "react-icons/fa6";
+
 
 
 export default function Navbar() {
@@ -28,10 +27,6 @@ export default function Navbar() {
             <li>Contact</li>
             </Link>
           </ul>
-
-          {/* mobile menu */}
-          <FaBars />
-          {/* <FaTimes /> */}
         </nav>
         </>
     )
