@@ -1,42 +1,33 @@
-"use client";
-import { doTwitterLogin } from "@/app/actions";
-// import Link from "next/link";
-import { FaXTwitter } from "react-icons/fa6";
-import { SiFacebook } from "react-icons/si";
+import Image from "next/image";
+import Headshot from "@/public/blockchain.jpg";
+import Stack from "./components/TechStack";
+import Projects from "./components/PastProjects";
 
-
-export default function Homet() {
-  const handleClick = () => {
-    alert("You clicked a button");
-  };
-
+export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen font-geistMono">
-        <h1 className="text-xl md:text-2xl mb-5 font-bold font-geistSans">
-          Choose a platform to connect to:
-        </h1>
-        <div className="flex gap-x-5">
-            <form action={doTwitterLogin}>
-              <button
-                name="action"
-                value="twitter"
-                className="py-8 w-40 gap-y-3 hover:border-amber-500 border flex flex-col justify-center items-center"
-              >
-                <FaXTwitter size={40} />
-                <span>Post</span>
-              </button>
-            </form>
-
-          <button
-            onClick={handleClick}
-            className="py-8 w-40 gap-y-3 hover:border-amber-500 border flex flex-col justify-center items-center"
-          >
-            <SiFacebook size={40} />
-            <span>Page / Group</span>
-          </button>
+      <section className="flex justify-between items-center md:px-10 py-10 font-geistMono">
+        <Image src={Headshot} alt="Profile picture" />
+        <div className="flex flex-col justify-center items-center">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, neque.
+          </p>
         </div>
-      </div>
+      </section>
+
+      <section className="md:px-10 py-10 font-geistSans" id="#work">
+        <h1 className="text-xl md:text-3xl font-bold">My Tech Stack</h1>
+        <div className="flex justify-between font-geistMono mt-5">
+          <p>Stack and Languages I work with</p>
+          <Stack />
+        </div>
+      </section>
+
+      <section className="md:px-10 py-10 font-geistSans">
+      <h1 className="text-xl md:text-3xl font-bold mb-5">My Recent Projects</h1>
+      <Projects />
+      </section>
     </>
   );
 }
