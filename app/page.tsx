@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans" id="#work">
+      <section className="md:px-10 pb-10 font-geistSans">
         <h1 className="text-xl md:text-3xl font-bold">My Tech Stack</h1>
         <div className="flex flex-col lg:flex-row justify-between font-geistMono mt-5">
           <p>Tools and Languages I work with</p>
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans">
+      <section className="md:px-10 pb-10 font-geistSans" >
         <h1 className="text-xl md:text-3xl font-bold mb-5">
           My Recent Projects
         </h1>
