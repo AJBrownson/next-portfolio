@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <>
-      <section className="md:px-10 font-geistSans pb-10">
+      <section className="md:px-10 font-geistSans pt-24 pb-10">
         <h1 className="text-xl md:text-3xl text-center lg:text-left font-bold">
           I transform ideas and imagination into tech reality.
         </h1>
