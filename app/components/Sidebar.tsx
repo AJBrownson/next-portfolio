@@ -3,7 +3,6 @@ import Link from "next/link";
 import Headshot from "@/public/blockchain.jpg";
 import { FaGithub, FaScroll, FaXTwitter } from "react-icons/fa6";
 
-
 export default function Sidebar() {
   return (
     <>
@@ -20,6 +19,8 @@ export default function Sidebar() {
         <div className="flex flex-col gap-y-3 px-3">
           <Link
             href="https://github.com/AJBrownson"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
             <FaGithub />
@@ -27,6 +28,8 @@ export default function Sidebar() {
           </Link>
           <Link
             href="https://x.com/TechieAnni"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
             <FaXTwitter />
@@ -34,6 +37,8 @@ export default function Sidebar() {
           </Link>
           <Link
             href="https://drive.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
             <FaScroll />
