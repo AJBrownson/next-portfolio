@@ -57,7 +57,7 @@ export default function ContactForm() {
         className="flex flex-col gap-y-5 font-geistMono"
       >
         <div className="flex flex-col gap-y-2">
-          <label>Name</label>
+          <label className="text-gray-300">Name</label>
           <input
             type="text"
             name="name"
@@ -70,7 +70,7 @@ export default function ContactForm() {
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <label>Email Address</label>
+          <label className="text-gray-300">Email Address</label>
           <input
             type="email"
             name="email"
@@ -83,7 +83,7 @@ export default function ContactForm() {
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <label>Message</label>
+          <label className="text-gray-300">Message</label>
           <textarea
             name="message"
             value={formData.message}
@@ -95,7 +95,7 @@ export default function ContactForm() {
         </div>
 
         <div className="flex justify-center">
-          <button className="flex items-center gap-x-2 py-2 px-5 border border-slate-400 hover:border-slate-400 hover:border-2">
+          <button className="flex items-center gap-x-2 py-2 px-5 border border-slate-400 hover:border-slate-700 hover:bg-slate-700 rounded text-gray-200">
             <FaPaperPlane />
             Send
           </button>

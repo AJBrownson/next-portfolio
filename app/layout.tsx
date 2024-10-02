@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,7 +41,7 @@ export default function RootLayout({
           </div>
           <div className="lg:flex-grow lg:overflow-y-auto">{children}</div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
