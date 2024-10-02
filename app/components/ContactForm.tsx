@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import { useState } from "react";
 import { FaPaperPlane } from "react-icons/fa6";
@@ -5,14 +6,14 @@ import { contactEmailTemplate } from "@/emailTemplate/contactTemplate";
 
 
 export default function ContactForm() {
+  const [status, setStatus] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState("");
 
-  const handleChange = (e: { target: { name: any; value: any } }) => {
+  const handleChange = (e: { target: { name: string; value: unknown } }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
@@ -36,13 +37,13 @@ export default function ContactForm() {
       });
 
       if (response.ok) {
-        setStatus("Message sent successfully!");
+        setStatus("Message sent successfully!. I'll be in touch");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        setStatus("Failed to send message. Please try again.");
+        setStatus("Failed to send message. Please try again");
       }
     } catch (error) {
-      setStatus("Error occurred. Please try again.");
+      setStatus("Error occurred. Please try again");
     }
 
     setTimeout(() => {
@@ -54,7 +55,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-y-5 font-geistMono border border-slate-700 p-4 rounded"
+        className="flex flex-col gap-y-5 font-geistMono border border-slate-700 pt-6 p-4 rounded"
       >
         <div className="flex flex-col gap-y-2">
           <label className="text-gray-300">Name</label>
@@ -100,7 +101,9 @@ export default function ContactForm() {
             Send
           </button>
         </div>
-        {status && <p className="text-center mt-4">{status}</p>}
+        <div className="p-[1px]">
+        {status && <p className="text-center">{status}</p>}
+        </div>
       </form>
     </>
   );

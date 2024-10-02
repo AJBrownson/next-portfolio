@@ -4,14 +4,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import Logo from "@/public/icon.svg"
+import Logo from "@/public/icon.svg";
 
 export default function Navbar() {
   return (
     <main className="bg-[#0a0a0a]">
       <nav className="font-geistMono flex justify-between items-center mx-3 md:mx-5 m-5 py-2 px-3 border border-slate-600 rounded-lg">
         {/* <h1 className="text-2xl font-bold font-geistSans">AJ</h1> */}
-        <Image src={Logo} alt="Logo" className="w-11 h-11" />
+        <Link href="/">
+          <Image src={Logo} alt="Logo" className="w-11 h-11" />
+        </Link>
         <ul className="flex space-x-6 lg:space-x-10">
           <Link
             href="#about"

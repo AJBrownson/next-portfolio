@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <section className="md:px-10 font-geistSans pt-10 lg:pt-24 pb-10">
+      <section className="md:px-10 font-geistSans pt-10 lg:pt-24 pb-10" id="about">
         <h1 className="text-xl md:text-3xl text-center lg:text-left font-bold">
           👋 Hi there, I’m Anietie Brownson
         </h1>
@@ -45,14 +45,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans">
+      <section className="md:px-10 pb-10 font-geistSans" id="projects">
         <h1 className="text-xl md:text-3xl font-bold mb-5">
           My Recent Projects
         </h1>
         <Projects />
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans">
+      <section className="md:px-10 pb-10 font-geistSans" id="contact">
         <h1 className="text-xl md:text-3xl font-bold mb-5">Contact</h1>
         <ContactForm />
       </section>
