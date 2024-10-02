@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hoster from "@/public/hoster.png";
 import Rooks from "@/public/rooks.png";
 import Solgacy from "@/public/solgacy.png";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Projects() {
@@ -26,7 +26,7 @@ export default function Projects() {
             className="lg:hidden flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2 text-gray-300">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function Projects() {
             className="hidden lg:flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>
@@ -66,7 +66,7 @@ export default function Projects() {
             className="lg:hidden flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2 text-gray-300">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>
@@ -82,7 +82,7 @@ export default function Projects() {
             className="hidden lg:flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>
@@ -104,7 +104,7 @@ export default function Projects() {
             className="lg:hidden flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2 text-gray-300">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>
@@ -120,7 +120,7 @@ export default function Projects() {
             className="hidden lg:flex justify-end"
           >
             <p className="p-2 text-sm flex items-center gap-x-2">
-              Visit Site <FaArrowRight />{" "}
+              Visit Site <FaExternalLinkAlt />{" "}
             </p>
           </Link>
         </div>

@@ -9,12 +9,16 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <section className="md:px-10 font-geistSans pt-24 pb-10">
+      <section className="md:px-10 font-geistSans pt-10 lg:pt-24 pb-10">
         <h1 className="text-xl md:text-3xl text-center lg:text-left font-bold">
-          Hi there, I&apos;m Anietie Brownson. I transform ideas and imagination into tech reality.
+          👋 Hi there, I’m Anietie Brownson
         </h1>
-        <p className="text-sm md:text-base text-center lg:text-left mt-3">
-          Software Developer
+        <p className="text-sm md:text-base text-center lg:text-left mt-3 text-gray-300">
+          I am a passionate software developer who loves transforming ideas and
+          imagination into tech reality. I love tackling challenges, building user-centric
+          applications and I’m dedicated to continuous learning and embracing new
+          technologies to deliver exceptional results. Let’s create something
+          amazing together!
         </p>
         <div className="flex justify-between lg:justify-normal gap-x-20 mt-5 py-5 border-slate-600 border-t-[1px]">
           <span className="flex flex-col gap-y-1">
@@ -33,7 +37,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans">
+      <section className="md:px-10 pb-12 font-geistSans">
         <h1 className="text-xl md:text-3xl font-bold">My Tech Stack</h1>
         <div className="flex flex-col lg:flex-row justify-between font-geistMono mt-5">
           {/* <p>Tools and Languages I work with</p> */}
@@ -41,7 +45,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:px-10 pb-10 font-geistSans" >
+      <section className="md:px-10 pb-10 font-geistSans">
         <h1 className="text-xl md:text-3xl font-bold mb-5">
           My Recent Projects
         </h1>

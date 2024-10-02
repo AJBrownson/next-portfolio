@@ -54,7 +54,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-y-5 font-geistMono"
+        className="flex flex-col gap-y-5 font-geistMono border border-slate-700 p-4 rounded"
       >
         <div className="flex flex-col gap-y-2">
           <label className="text-gray-300">Name</label>
@@ -63,7 +63,7 @@ export default function ContactForm() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="bg-slate-900 text-white p-3"
+            className="bg-slate-900 text-gray-300 p-3"
             placeholder="Enter your name"
             required
           />
@@ -76,7 +76,7 @@ export default function ContactForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="bg-slate-900 text-white p-3"
+            className="bg-slate-900 text-gray-300 p-3"
             placeholder="Enter your email address"
             required
           />
@@ -88,7 +88,7 @@ export default function ContactForm() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="bg-slate-900 text-white p-3"
+            className="bg-slate-900 text-gray-300 p-3"
             placeholder="Enter your message"
             required
           ></textarea>
