@@ -13,7 +13,7 @@ export default function ContactForm() {
     message: "",
   });
 
-  const handleChange = (e: { target: { name: string; value: unknown } }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
