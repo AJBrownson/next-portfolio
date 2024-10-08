@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <main className="flex flex-col gap-y-12">
-      <div className="flex flex-col-reverse lg:items-center lg:flex-row justify-between font-geistMono">
+      {/* <div className="flex flex-col-reverse lg:items-center lg:flex-row justify-between font-geistMono">
         <div className="lg:w-1/2 mt-5 lg:mt-0">
           <h1 className="text-xl font-semibold mb-2 text-gray-200">
             Hoster | Social Media Posts Scheduler
@@ -46,7 +46,7 @@ export default function Projects() {
             </p>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col-reverse lg:items-center lg:flex-row justify-between font-geistMono">
         <div className="lg:w-1/2 mt-5 lg:mt-0">

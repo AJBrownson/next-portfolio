@@ -1,7 +1,7 @@
 export const contactEmailTemplate = (formData: { name: string; email: string; message: string }) => {
     return `
       <div style="font-family: Trebuchet MS, sans-serif; line-height: 1.5; padding: 15px;">
-        <h2 style="background-color: #0f172a; color: #fff; padding: 30px; text-align: center; font-size: 24px;">Hi, Harlee... You've got mail!</h2>
+        <h2 style="background-color: #0f172a; color: #fff; padding: 30px; text-align: center; font-size: 24px;">Hi, Anietie... You've got mail!</h2>
         <p style="font-size: 16px; margin: 10px 0;"><strong>Name:</strong> ${formData.name}</p>
         <p style="font-size: 16px; margin: 10px 0;"><strong>Email:</strong> ${formData.email}</p>
         <p style="font-size: 16px; margin: 10px 0;"><strong>Message:</strong></p>
