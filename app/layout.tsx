@@ -17,9 +17,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "AJ's Portfolio",
+  title: "Anietie Brownson | Web Portfolio",
   description:
-    "AJ Brownson's portfolio Website built with NextJS and TailwindCSS",
+    "AJ Brownson's portfolio Website built with NextJS, TypeScript, and TailwindCSS",
 };
 
 export default function RootLayout({
