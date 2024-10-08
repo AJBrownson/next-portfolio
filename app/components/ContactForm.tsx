@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 "use client";
 import { useState } from "react";
 import { FaPaperPlane } from "react-icons/fa6";
@@ -13,7 +14,7 @@ export default function ContactForm() {
     message: "",
   });
 
-  const handleChange = (e: { target: { name: any; value: any } }) => {
+  const handleChange = (e: { target: { name: string; value: string; }; }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };

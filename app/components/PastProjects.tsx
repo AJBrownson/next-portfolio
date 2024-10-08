@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hoster from "@/public/hoster.png";
+// import Hoster from "@/public/hoster.png";
 import Rooks from "@/public/rooks.png";
 import Solgacy from "@/public/solgacy.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
