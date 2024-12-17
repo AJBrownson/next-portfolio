@@ -19,7 +19,7 @@ export default function Navbar() {
             href="#about"
             className="flex space-x-2 items-center border border-slate-600 hover:border-blue-800 hover:bg-slate-700 py-1 px-2 rounded-md  text-sm"
           >
-            <FaUserAlt />
+            <FaUserAlt color="white"/>
             <li className="hidden lg:block text-gray-200">About</li>
           </Link>
           <Link
@@ -36,7 +36,7 @@ export default function Navbar() {
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              className="h-4 w-4"
+              className="h-4 w-4 text-white"
             >
               <path d="M2 3h20"></path>
               <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"></path>
@@ -48,7 +48,7 @@ export default function Navbar() {
             href="#contact"
             className="flex space-x-2 items-center border border-slate-600 hover:border-blue-800 hover:bg-slate-700 py-1 px-2 rounded-md  text-sm"
           >
-            <IoMdMail />
+            <IoMdMail color="white"/>
             <li className="hidden lg:block text-gray-200">Contact</li>
           </Link>
         </ul>
