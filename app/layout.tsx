@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#0a0a0a] antialiased`}
       >
         <div className="fixed md:px-4 top-0 w-screen bg-[#0a0a0a]">
           <Navbar />
