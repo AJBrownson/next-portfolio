@@ -5,7 +5,7 @@ export default function Stack() {
     <>
       <div className="grid grid-cols-3 grid-rows-3 gap-3">
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaReact />
+          <FaReact color="white"/>
           <p className="text-sm md:text-base text-gray-300">ReactJS</p>
         </div>
 
@@ -28,7 +28,7 @@ export default function Stack() {
         </div>
 
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaJs />
+          <FaJs color="white"/>
           <p className="text-sm md:text-base text-gray-300">JavaScript</p>
         </div>
 
@@ -51,7 +51,7 @@ export default function Stack() {
         </div>
 
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaNodeJs />
+          <FaNodeJs color="white"/>
           <p className="text-sm md:text-base text-gray-300">NodeJS</p>
         </div>
 
