@@ -23,7 +23,7 @@ export default function Sidebar() {
             rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
-            <FaGithub />
+            <FaGithub color="white" />
             <p className="text-gray-300">Github</p>
           </Link>
           <Link
@@ -32,7 +32,7 @@ export default function Sidebar() {
             rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
-            <FaXTwitter />
+            <FaXTwitter color="white />
             <p className="text-gray-300">Twitter</p>
           </Link>
           <Link
@@ -41,7 +41,7 @@ export default function Sidebar() {
             rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
           >
-            <FaScroll />
+            <FaScroll color="white />
             <p className="text-gray-300">Resume</p>
           </Link>
         </div>
