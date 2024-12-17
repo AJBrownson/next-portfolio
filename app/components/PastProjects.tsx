@@ -65,8 +65,8 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="lg:hidden flex justify-end"
           >
-            <p className="p-2 text-sm flex items-center gap-x-2 text-gray-300">
-              Visit Site <FaExternalLinkAlt />{" "}
+            <p className="p-2 text-sm flex items-center gap-x-2 text-white">
+              Visit Site <FaExternalLinkAlt color="white"/>{" "}
             </p>
           </Link>
         </div>
@@ -81,8 +81,8 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hidden lg:flex justify-end"
           >
-            <p className="p-2 text-sm flex items-center gap-x-2">
-              Visit Site <FaExternalLinkAlt />{" "}
+            <p className="p-2 text-sm flex items-center gap-x-2 text-white">
+              Visit Site <FaExternalLinkAlt color="white"/>{" "}
             </p>
           </Link>
         </div>
@@ -103,8 +103,8 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="lg:hidden flex justify-end"
           >
-            <p className="p-2 text-sm flex items-center gap-x-2 text-gray-300">
-              Visit Site <FaExternalLinkAlt />{" "}
+            <p className="p-2 text-sm flex items-center gap-x-2 text-white">
+              Visit Site <FaExternalLinkAlt color="white"/>{" "}
             </p>
           </Link>
         </div>
@@ -119,8 +119,8 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hidden lg:flex justify-end"
           >
-            <p className="p-2 text-sm flex items-center gap-x-2">
-              Visit Site <FaExternalLinkAlt />{" "}
+            <p className="p-2 text-sm flex items-center gap-x-2 text-white">
+              Visit Site <FaExternalLinkAlt color="white"/>{" "}
             </p>
           </Link>
         </div>
