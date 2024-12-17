@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <section className="md:px-10 font-geistSans pt-10 lg:pt-24 pb-10" id="about">
+      <section className="bg-[#0a0a0a] md:px-10 font-geistSans pt-10 lg:pt-24 pb-10" id="about">
         <h1 className="text-xl md:text-3xl text-center lg:text-left font-bold">
           👋 Hi there, I’m Anietie Brownson
         </h1>
