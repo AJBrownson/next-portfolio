@@ -36,7 +36,7 @@ export default function Sidebar() {
             <p className="text-gray-300">Twitter</p>
           </Link>
           <Link
-            href="https://docs.google.com/document/d/1rHz6O_eNEtdryuV8Iab_sJ5TNAzdEXvYaQE5GCcHZ6I/edit?usp=sharing"
+            href="https://docs.google.com/document/d/13YdHTCVVLUsF6mu0gwyJpqjS1S4z6nRDmOJzi7u49Lk/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center items-center py-1 gap-x-2 border border-slate-700 rounded-xl hover:bg-slate-700"
