@@ -1,11 +1,13 @@
 import { FaJs, FaNodeJs, FaReact } from "react-icons/fa6";
+import { SiMysql, SiMui } from "react-icons/si";
+import { RiSupabaseFill } from "react-icons/ri";
 
 export default function Stack() {
   return (
     <>
       <div className="grid grid-cols-3 grid-rows-3 gap-3">
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaReact color="white"/>
+          <FaReact color="white" />
           <p className="text-sm md:text-base text-gray-300">ReactJS</p>
         </div>
 
@@ -28,7 +30,12 @@ export default function Stack() {
         </div>
 
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaJs color="white"/>
+          <SiMui color="white" />
+          <p className="text-sm md:text-base text-gray-300">Material UI</p>
+        </div>
+
+        <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
+          <FaJs color="white" />
           <p className="text-sm md:text-base text-gray-300">JavaScript</p>
         </div>
 
@@ -51,7 +58,7 @@ export default function Stack() {
         </div>
 
         <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
-          <FaNodeJs color="white"/>
+          <FaNodeJs color="white" />
           <p className="text-sm md:text-base text-gray-300">NodeJS</p>
         </div>
 
@@ -107,6 +114,16 @@ export default function Stack() {
             <path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"></path>
           </svg>
           <p className="text-sm md:text-base text-gray-300">MongoDB</p>
+        </div>
+
+        <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
+          <SiMysql color="white" />
+          <p className="text-sm md:text-base text-gray-300">MySQL</p>
+        </div>
+
+        <div className="flex flex-col gap-y-1 justify-center items-center border border-slate-700 py-2 px-4 hover:bg-slate-700">
+          <RiSupabaseFill color="white" />
+          <p className="text-sm md:text-base text-gray-300">Supabase</p>
         </div>
       </div>
     </>
